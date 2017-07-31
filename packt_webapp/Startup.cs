@@ -11,6 +11,11 @@ using packt_webapp.Middleware;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 using System.Diagnostics;
+using packt_webapp.Entities;
+using Microsoft.EntityFrameworkCore;
+using packt_webapp.Repositories;
+using packt_webapp.Dtos;
+using packt_webapp.Services;
 
 namespace packt_webapp
 {
@@ -21,7 +26,7 @@ namespace packt_webapp
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
+                .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json");
 
             Configuration = builder.Build();
@@ -38,6 +43,9 @@ namespace packt_webapp
         {
             services.AddOptions();
             services.Configure<MyConfiguration>(Configuration);
+            services.AddDbContext<PacktDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<ISeedDataService, SeedDataService>();
             services.AddMvc();
         }
 
@@ -55,7 +63,12 @@ namespace packt_webapp
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
-            
+            AutoMapper.Mapper.Initialize(mapper =>
+            {
+                mapper.CreateMap<Customer, CustomerDto>().ReverseMap();
+            });
+
+            app.AddSeedData();
 
             app.UseMvc();
             
