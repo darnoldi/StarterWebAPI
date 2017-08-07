@@ -22,7 +22,7 @@ using NLog.Extensions.Logging;
 
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Diagnostics;
-//StarterWebAPI
+//StarterAPI
 namespace StarterAPI
 {
     public class Startup
