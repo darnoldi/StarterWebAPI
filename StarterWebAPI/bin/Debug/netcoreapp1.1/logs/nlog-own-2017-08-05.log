@@ -1,0 +1,7 @@
+2017-08-05 12:19:17.4021|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/Customers/6760692d-9c02-48a4-2cea-08d4dbd9347c|action: UpdateCustomer
+2017-08-05 12:19:32.2596|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/Customers/6760692d-9c02-48a4-2cea-08d4dbd9347c|action: UpdateCustomer
+2017-08-05 12:21:02.2181|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/Customers|action: AddCustomer
+2017-08-05 12:21:24.6982|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/Customers/6760692d-9c02-48a4-2cea-08d4dbd9347c|action: UpdateCustomer
+2017-08-05 12:21:49.3758|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/customers|action: GetAllCustomers
+2017-08-05 12:22:17.3201|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/customers/6760692d-9c02-48a4-2cea-08d4dbd9347c|action: UpdateCustomer
+2017-08-05 12:22:27.2736|0|packt_webapp.Controllers.CustomersController|INFO|  customerscontroler started |url: http://localhost/api/customers|action: GetAllCustomers

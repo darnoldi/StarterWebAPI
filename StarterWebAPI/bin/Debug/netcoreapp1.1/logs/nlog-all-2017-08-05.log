@@ -1,0 +1,286 @@
+2017-08-05 12:19:00.6891|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-05 12:19:00.9899|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-05 12:19:01.0410|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTDI2BU92" started. 
+2017-08-05 12:19:01.0410|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTDI2BU91" started. 
+2017-08-05 12:19:01.2123|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:21786/  0 
+2017-08-05 12:19:01.2123|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:21786/favicon.ico   
+2017-08-05 12:19:01.3858|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTDI2BU92" completed keep alive response. 
+2017-08-05 12:19:01.3858|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-08-05 12:19:01.4038|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 261.218ms 200  
+2017-08-05 12:19:01.5853|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-08-05 12:19:01.5853|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTDI2BU91" completed keep alive response. 
+2017-08-05 12:19:01.5853|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 462.8231ms 404  
+2017-08-05 12:19:17.1524|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 PUT http://localhost:21786/api/Customers/6760692d-9c02-48a4-2cea-08d4dbd9347c application/json 4 
+2017-08-05 12:19:17.1524|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|PUT requests are not supported 
+2017-08-05 12:19:17.1755|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name 'GetSingleCustomer' and template 'api/Customers/{id}'. 
+2017-08-05 12:19:17.2096|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetSingleCustomer (packt_webapp)' with id '84deb912-e7e8-4985-b45b-e94a345437e8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:19:17.2096|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.PartiallyUpdate (packt_webapp)' with id 'cbb627d7-6c07-43b0-a927-cebcdb63239d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:19:17.2096|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.Remove (packt_webapp)' with id '1a88a81f-5f5b-49cf-8c60-78632d510adf' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:19:17.2838|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) 
+2017-08-05 12:19:17.4021|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:19:17.5204|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-05 12:19:17.6728|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) with arguments (6760692d-9c02-48a4-2cea-08d4dbd9347c, packt_webapp.Dtos.CustomerUpdateDto) - ModelState is Valid 
+2017-08-05 12:19:18.0879|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'(from Customer x in DbSet<Customer>
+where x.Id == __id_0
+select x)
+.FirstOrDefault()' 
+2017-08-05 12:19:18.1080|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'(from Customer x in DbSet<Customer>
+where x.Id == __id_0
+select x)
+.FirstOrDefault()' 
+2017-08-05 12:19:18.3406|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IEnumerable<Customer> _ToSequence(
+    element: Customer FirstOrDefault(
+        source: IEnumerable<Customer> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT TOP(1) [x].[Id], [x].[Age], [x].[Firstname], [x].[Lastname]
+                FROM [Customers] AS [x]
+                WHERE [x].[Id] = @__id_0
+            , 
+            shaper: UnbufferedEntityShaper<Customer>
+        )
+    )
+)
+ 
+2017-08-05 12:19:18.3947|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:18.6274|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (62ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Age], [x].[Firstname], [x].[Lastname]
+FROM [Customers] AS [x]
+WHERE [x].[Id] = @__id_0 
+2017-08-05 12:19:18.6905|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:18.7868|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:18.7988|5|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Beginning transaction with isolation level 'Unspecified'. 
+2017-08-05 12:19:18.8620|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (2ms) [Parameters=[@p3='?', @p0='?', @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Customers] SET [Age] = @p0, [Firstname] = @p1, [Lastname] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT; 
+2017-08-05 12:19:18.8690|6|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Committing transaction. 
+2017-08-05 12:19:18.9191|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:18.9322|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2017-08-05 12:19:18.9492|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-05 12:19:18.9492|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-08-05 12:19:18.9612|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-05 12:19:19.0435|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) in 1751.9473ms 
+2017-08-05 12:19:19.0435|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTDI2BU92" completed keep alive response. 
+2017-08-05 12:19:19.0595|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1905.9389ms 200 application/json; charset=utf-8 
+2017-08-05 12:19:32.2375|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 PUT http://localhost:21786/api/Customers/6760692d-9c02-48a4-2cea-08d4dbd9347c application/json 0 
+2017-08-05 12:19:32.2436|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|PUT requests are not supported 
+2017-08-05 12:19:32.2436|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name 'GetSingleCustomer' and template 'api/Customers/{id}'. 
+2017-08-05 12:19:32.2436|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetSingleCustomer (packt_webapp)' with id '84deb912-e7e8-4985-b45b-e94a345437e8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:19:32.2436|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.PartiallyUpdate (packt_webapp)' with id 'cbb627d7-6c07-43b0-a927-cebcdb63239d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:19:32.2596|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.Remove (packt_webapp)' with id '1a88a81f-5f5b-49cf-8c60-78632d510adf' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:19:32.2596|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) 
+2017-08-05 12:19:32.2596|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:19:32.3459|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-05 12:19:32.3509|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) with arguments (6760692d-9c02-48a4-2cea-08d4dbd9347c, ) - ModelState is Valid 
+2017-08-05 12:19:32.4371|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:32.4461|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (1ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Age], [x].[Firstname], [x].[Lastname]
+FROM [Customers] AS [x]
+WHERE [x].[Id] = @__id_0 
+2017-08-05 12:19:32.4461|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:32.4461|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:32.4611|5|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Beginning transaction with isolation level 'Unspecified'. 
+2017-08-05 12:19:32.4611|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (1ms) [Parameters=[@p3='?', @p0='?', @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Customers] SET [Age] = @p0, [Firstname] = @p1, [Lastname] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT; 
+2017-08-05 12:19:32.4611|6|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Committing transaction. 
+2017-08-05 12:19:32.4772|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:19:32.4772|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2017-08-05 12:19:32.4772|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-05 12:19:32.4772|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-08-05 12:19:32.4772|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-05 12:19:32.4932|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) in 225.5884ms 
+2017-08-05 12:19:32.4932|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTDI2BU91" completed keep alive response. 
+2017-08-05 12:19:32.4932|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 265.0635ms 200 application/json; charset=utf-8 
+2017-08-05 12:20:20.6936|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-05 12:20:20.9533|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-05 12:20:21.1578|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" started. 
+2017-08-05 12:20:21.1578|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" started. 
+2017-08-05 12:20:21.3343|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:21786/  0 
+2017-08-05 12:20:21.3343|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:21786/favicon.ico   
+2017-08-05 12:20:21.5238|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-08-05 12:20:21.5238|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" completed keep alive response. 
+2017-08-05 12:20:21.5478|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 291.3892ms 200  
+2017-08-05 12:20:21.7634|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-08-05 12:20:21.7634|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" completed keep alive response. 
+2017-08-05 12:20:21.7875|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 535.142ms 404  
+2017-08-05 12:20:35.3676|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 PUT http://localhost:21786/api/Customers application/json 0 
+2017-08-05 12:20:35.3676|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|PUT requests are not supported 
+2017-08-05 12:20:35.3876|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Customers'. 
+2017-08-05 12:20:35.4227|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp)' with id '8ec1a699-4f87-40cb-86a2-9721221a5483' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:20:35.4227|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp)' with id 'af753b0f-488c-466d-a06c-a9dc4ee3da52' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:20:35.4298|3|Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler|DEBUG|No actions matched the current request 
+2017-08-05 12:20:35.4298|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-08-05 12:20:35.4298|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" completed keep alive response. 
+2017-08-05 12:20:35.4508|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 83.9898ms 404  
+2017-08-05 12:21:02.0165|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:21786/api/Customers application/json 0 
+2017-08-05 12:21:02.0165|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-05 12:21:02.0256|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Customers'. 
+2017-08-05 12:21:02.0256|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp)' with id '8ec1a699-4f87-40cb-86a2-9721221a5483' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:21:02.1028|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp) 
+2017-08-05 12:21:02.2181|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:21:02.3083|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-05 12:21:02.3394|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp) with arguments () - ModelState is Valid 
+2017-08-05 12:21:11.2512|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2017-08-05 12:21:11.2782|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-05 12:21:11.2923|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain; charset=utf-8' to write the response. 
+2017-08-05 12:21:11.3043|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-05 12:21:11.3474|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp) in 9235.754ms 
+2017-08-05 12:21:11.3534|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" completed keep alive response. 
+2017-08-05 12:21:11.3534|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 9346.7978ms 400 text/plain; charset=utf-8 
+2017-08-05 12:21:24.6751|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 PUT http://localhost:21786/api/Customers/6760692d-9c02-48a4-2cea-08d4dbd9347c  0 
+2017-08-05 12:21:24.6811|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|PUT requests are not supported 
+2017-08-05 12:21:24.6811|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name 'GetSingleCustomer' and template 'api/Customers/{id}'. 
+2017-08-05 12:21:24.6811|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetSingleCustomer (packt_webapp)' with id '8ae774de-9c0d-4122-8fa2-b72f7ef0e6ca' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:21:24.6811|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.PartiallyUpdate (packt_webapp)' with id 'f26b8ff3-7f39-4b82-8617-1297f6252a37' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:21:24.6811|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.Remove (packt_webapp)' with id 'eee2f9ae-b28f-48fe-8e99-8c0a3f3bfa40' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:21:24.6982|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) 
+2017-08-05 12:21:24.6982|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:21:24.7353|2|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type '(null)'. 
+2017-08-05 12:21:24.7353|2|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter' for content type '(null)'. 
+2017-08-05 12:21:25.1504|2|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerInputFormatter' for content type '(null)'. 
+2017-08-05 12:21:25.1504|3|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|No input formatter was found to support the content type '(null)' for use with the [FromBody] attribute. 
+2017-08-05 12:21:25.1734|3|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter'. 
+2017-08-05 12:21:25.1875|1|Microsoft.AspNetCore.Mvc.StatusCodeResult|INFO|Executing HttpStatusCodeResult, setting HTTP status code 415 
+2017-08-05 12:21:25.1875|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) in 490.0608ms 
+2017-08-05 12:21:25.1955|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" completed keep alive response. 
+2017-08-05 12:21:25.1955|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 524.9753ms 415  
+2017-08-05 12:21:49.3297|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:21786/api/customers   
+2017-08-05 12:21:49.3357|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /api/customers does not match a supported file type 
+2017-08-05 12:21:49.3357|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Customers'. 
+2017-08-05 12:21:49.3357|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp)' with id 'af753b0f-488c-466d-a06c-a9dc4ee3da52' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:21:49.3357|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp) 
+2017-08-05 12:21:49.3758|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:21:49.3818|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp) with arguments ((null)) - ModelState is Valid 
+2017-08-05 12:21:49.7919|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'from Customer <generated>_0 in DbSet<Customer>
+select <generated>_0' 
+2017-08-05 12:21:49.8099|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'from Customer <generated>_0 in DbSet<Customer>
+select <generated>_0' 
+2017-08-05 12:21:49.9323|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IEnumerable<Customer> _ShapedQuery(
+    queryContext: queryContext, 
+    shaperCommandContext: SelectExpression: 
+        SELECT [c].[Id], [c].[Age], [c].[Firstname], [c].[Lastname]
+        FROM [Customers] AS [c]
+    , 
+    shaper: UnbufferedEntityShaper<Customer>
+)
+ 
+2017-08-05 12:21:49.9954|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:21:50.1990|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Age], [c].[Firstname], [c].[Lastname]
+FROM [Customers] AS [c] 
+2017-08-05 12:21:50.2762|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:21:50.2922|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2017-08-05 12:21:50.2922|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-05 12:21:50.3053|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-08-05 12:21:50.3053|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-05 12:21:50.4767|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp) in 1101.1473ms 
+2017-08-05 12:21:50.4767|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" completed keep alive response. 
+2017-08-05 12:21:50.4958|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1160.0499ms 200 application/json; charset=utf-8 
+2017-08-05 12:22:09.2927|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:21786/api/customers/6760692d-9c02-48a4-2cea-08d4dbd9347c application/json 89 
+2017-08-05 12:22:09.2927|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-05 12:22:09.2927|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name 'GetSingleCustomer' and template 'api/Customers/{id}'. 
+2017-08-05 12:22:09.3048|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetSingleCustomer (packt_webapp)' with id '8ae774de-9c0d-4122-8fa2-b72f7ef0e6ca' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:09.3048|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp)' with id '929fe28c-9ae6-47fc-951d-730ddc8f6369' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:09.3048|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.PartiallyUpdate (packt_webapp)' with id 'f26b8ff3-7f39-4b82-8617-1297f6252a37' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:09.3048|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.Remove (packt_webapp)' with id 'eee2f9ae-b28f-48fe-8e99-8c0a3f3bfa40' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:09.3208|3|Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler|DEBUG|No actions matched the current request 
+2017-08-05 12:22:09.3208|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-08-05 12:22:09.3208|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" completed keep alive response. 
+2017-08-05 12:22:09.3439|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 45.9866ms 404  
+2017-08-05 12:22:17.2980|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 PUT http://localhost:21786/api/customers/6760692d-9c02-48a4-2cea-08d4dbd9347c application/json 89 
+2017-08-05 12:22:17.3031|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|PUT requests are not supported 
+2017-08-05 12:22:17.3031|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name 'GetSingleCustomer' and template 'api/Customers/{id}'. 
+2017-08-05 12:22:17.3031|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.GetSingleCustomer (packt_webapp)' with id '8ae774de-9c0d-4122-8fa2-b72f7ef0e6ca' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:17.3031|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.PartiallyUpdate (packt_webapp)' with id 'f26b8ff3-7f39-4b82-8617-1297f6252a37' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:17.3031|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.Remove (packt_webapp)' with id 'eee2f9ae-b28f-48fe-8e99-8c0a3f3bfa40' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:17.3201|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) 
+2017-08-05 12:22:17.3201|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:22:17.3201|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-05 12:22:17.4113|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) with arguments (6760692d-9c02-48a4-2cea-08d4dbd9347c, packt_webapp.Dtos.CustomerUpdateDto) - ModelState is Valid 
+2017-08-05 12:22:17.5176|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'(from Customer x in DbSet<Customer>
+where x.Id == __id_0
+select x)
+.FirstOrDefault()' 
+2017-08-05 12:22:17.5317|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'(from Customer x in DbSet<Customer>
+where x.Id == __id_0
+select x)
+.FirstOrDefault()' 
+2017-08-05 12:22:17.6440|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IEnumerable<Customer> _ToSequence(
+    element: Customer FirstOrDefault(
+        source: IEnumerable<Customer> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT TOP(1) [x].[Id], [x].[Age], [x].[Firstname], [x].[Lastname]
+                FROM [Customers] AS [x]
+                WHERE [x].[Id] = @__id_0
+            , 
+            shaper: UnbufferedEntityShaper<Customer>
+        )
+    )
+)
+ 
+2017-08-05 12:22:17.6480|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:22:17.7031|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (36ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Age], [x].[Firstname], [x].[Lastname]
+FROM [Customers] AS [x]
+WHERE [x].[Id] = @__id_0 
+2017-08-05 12:22:17.7031|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:22:17.7482|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:22:17.7583|5|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Beginning transaction with isolation level 'Unspecified'. 
+2017-08-05 12:22:17.8224|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (2ms) [Parameters=[@p3='?', @p0='?', @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Customers] SET [Age] = @p0, [Firstname] = @p1, [Lastname] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT; 
+2017-08-05 12:22:17.8224|6|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Committing transaction. 
+2017-08-05 12:22:17.8716|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:22:17.8716|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2017-08-05 12:22:17.8816|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-05 12:22:17.8816|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-08-05 12:22:17.8816|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-05 12:22:17.8976|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.UpdateCustomer (packt_webapp) in 570.2435ms 
+2017-08-05 12:22:17.8976|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" completed keep alive response. 
+2017-08-05 12:22:17.9127|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 609.9209ms 200 application/json; charset=utf-8 
+2017-08-05 12:22:27.1924|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:21786/api/customers   
+2017-08-05 12:22:27.2004|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /api/customers does not match a supported file type 
+2017-08-05 12:22:27.2696|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Customers'. 
+2017-08-05 12:22:27.2736|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'packt_webapp.Controllers.CustomersController.AddCustomer (packt_webapp)' with id 'af753b0f-488c-466d-a06c-a9dc4ee3da52' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-05 12:22:27.2736|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp) 
+2017-08-05 12:22:27.2736|0|packt_webapp.Controllers.CustomersController|INFO|customerscontroler started 
+2017-08-05 12:22:27.2896|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp) with arguments ((null)) - ModelState is Valid 
+2017-08-05 12:22:27.2896|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:22:27.3036|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Age], [c].[Firstname], [c].[Lastname]
+FROM [Customers] AS [c] 
+2017-08-05 12:22:27.3036|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-05 12:22:27.3036|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2017-08-05 12:22:27.3036|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-05 12:22:27.3036|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-08-05 12:22:27.3036|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-05 12:22:27.3207|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action packt_webapp.Controllers.CustomersController.GetAllCustomers (packt_webapp) in 39.5654ms 
+2017-08-05 12:22:27.3207|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" completed keep alive response. 
+2017-08-05 12:22:27.3207|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 137.5201ms 200 application/json; charset=utf-8 
+2017-08-05 12:24:01.1387|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" received FIN. 
+2017-08-05 12:24:01.1387|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" received FIN. 
+2017-08-05 12:24:01.1737|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" disconnecting. 
+2017-08-05 12:24:01.1737|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" disconnecting. 
+2017-08-05 12:24:01.1953|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" sending FIN. 
+2017-08-05 12:24:01.1953|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" sending FIN. 
+2017-08-05 12:24:01.2269|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" sent FIN with status "0". 
+2017-08-05 12:24:01.2269|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" sent FIN with status "0". 
+2017-08-05 12:24:01.2545|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8F" stopped. 
+2017-08-05 12:24:01.2565|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6RTE9UDK8E" stopped. 

@@ -1,0 +1,10 @@
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\bin\Debug\netcoreapp1.1\packt_webapp.deps.json
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\bin\Debug\netcoreapp1.1\packt_webapp.runtimeconfig.json
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\bin\Debug\netcoreapp1.1\packt_webapp.runtimeconfig.dev.json
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\bin\Debug\netcoreapp1.1\packt_webapp.dll
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\bin\Debug\netcoreapp1.1\packt_webapp.pdb
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\obj\Debug\netcoreapp1.1\packt_webapp.csprojResolveAssemblyReference.cache
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\obj\Debug\netcoreapp1.1\packt_webapp.AssemblyInfo.cs
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\obj\Debug\netcoreapp1.1\packt_webapp.dll
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\obj\Debug\netcoreapp1.1\packt_webapp.pdb
+C:\Users\dave\Source\Repos\packt_webapp\packt_webapp\bin\Debug\netcoreapp1.1\nlog.config

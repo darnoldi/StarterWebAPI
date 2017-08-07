@@ -1,0 +1,10 @@
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\bin\Debug\netcoreapp1.1\nlog.config
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\bin\Debug\netcoreapp1.1\StarterWebAPI.deps.json
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\bin\Debug\netcoreapp1.1\StarterWebAPI.runtimeconfig.json
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\bin\Debug\netcoreapp1.1\StarterWebAPI.runtimeconfig.dev.json
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\bin\Debug\netcoreapp1.1\StarterWebAPI.dll
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\bin\Debug\netcoreapp1.1\StarterWebAPI.pdb
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\obj\Debug\netcoreapp1.1\StarterWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\obj\Debug\netcoreapp1.1\StarterWebAPI.AssemblyInfo.cs
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\obj\Debug\netcoreapp1.1\StarterWebAPI.dll
+C:\Users\dave\Source\Repos\StarterWebAPI\StarterWebAPI\obj\Debug\netcoreapp1.1\StarterWebAPI.pdb
