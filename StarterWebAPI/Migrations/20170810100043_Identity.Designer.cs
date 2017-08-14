@@ -8,9 +8,10 @@ using StarterAPI.Entities;
 namespace StarterAPI.Migrations
 {
     [DbContext(typeof(PacktDbContext))]
-    partial class PacktDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170810100043_Identity")]
+    partial class Identity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")
