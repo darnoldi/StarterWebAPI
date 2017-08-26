@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StarterAPI.Entities
 {
-    public class PacktDbContext : IdentityDbContext
+    public class PacktDbContext : IdentityDbContext<AppUser, AppRole, string>
     {
         public PacktDbContext(DbContextOptions<PacktDbContext> options) : base(options )
         {
@@ -18,6 +18,7 @@ namespace StarterAPI.Entities
 
         public DbSet<Customer > Customers { get; set; }
         public DbSet<JobSeeker> JobSeekers { get; set; }
+        public DbSet<>
 
     }
 }

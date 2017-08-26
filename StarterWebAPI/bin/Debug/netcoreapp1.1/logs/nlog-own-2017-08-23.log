@@ -1,0 +1,2 @@
+2017-08-23 14:43:16.8563|500|Global Exception Logger|ERROR|  Object reference not set to an instance of an object. Object reference not set to an instance of an object.|url: http://localhost/api/Auth/login|action: Post
+2017-08-23 14:45:42.3576|500|Global Exception Logger|ERROR|  Object reference not set to an instance of an object. Object reference not set to an instance of an object.|url: http://localhost/api/Auth/login|action: Post

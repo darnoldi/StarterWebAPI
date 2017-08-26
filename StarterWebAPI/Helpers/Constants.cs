@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -11,7 +12,9 @@ namespace StarterWebAPI.Helpers
         {
             public static class JwtClaimIdentifiers
             {
-                public const string Rol = "rol", Id = "id";
+                public const string Rol = "rol", Id = "id", Roles = "roles";
+
+                //public static BinaryReader Roles { get; internal set; }
             }
 
             public static class JwtClaims

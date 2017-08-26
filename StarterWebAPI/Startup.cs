@@ -166,6 +166,8 @@ namespace StarterAPI
                 ClockSkew = TimeSpan.Zero
             };
 
+            app.UseIdentity();
+
             app.UseJwtBearerAuthentication(new JwtBearerOptions
             {
                 AutomaticAuthenticate = true,

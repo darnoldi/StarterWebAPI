@@ -1,0 +1,631 @@
+2017-08-23 14:01:23.0074|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-23 14:01:23.5373|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-23 14:01:39.7796|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTS" started. 
+2017-08-23 14:01:39.9400|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/   
+2017-08-23 14:01:40.0929|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/ does not match a supported file type 
+2017-08-23 14:01:40.1819|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'N/A' 
+2017-08-23 14:01:40.2871|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTS" completed keep alive response. 
+2017-08-23 14:01:40.3057|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTT" started. 
+2017-08-23 14:01:40.3328|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" started. 
+2017-08-23 14:01:40.3578|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTV" started. 
+2017-08-23 14:01:40.4426|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" started. 
+2017-08-23 14:01:40.4736|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js   
+2017-08-23 14:01:40.4817|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css   
+2017-08-23 14:01:40.4426|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU1" started. 
+2017-08-23 14:01:40.5082|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/object-assign-pollyfill.js does not match an existing file 
+2017-08-23 14:01:40.5438|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/screen.css does not match an existing file 
+2017-08-23 14:01:40.6079|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css   
+2017-08-23 14:01:40.6330|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js   
+2017-08-23 14:01:40.6601|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js   
+2017-08-23 14:01:40.7443|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.slideto.min.js does not match an existing file 
+2017-08-23 14:01:40.7443|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/reset.css does not match an existing file 
+2017-08-23 14:01:40.8095|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.ba-bbq.min.js does not match an existing file 
+2017-08-23 14:01:40.8736|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/object-assign-pollyfill.js was not modified 
+2017-08-23 14:01:40.8992|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/reset.css was not modified 
+2017-08-23 14:01:40.9363|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.slideto.min.js was not modified 
+2017-08-23 14:01:40.9363|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.ba-bbq.min.js was not modified 
+2017-08-23 14:01:40.9604|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/screen.css was not modified 
+2017-08-23 14:01:40.9714|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 593.7864ms 200 text/html 
+2017-08-23 14:01:41.0165|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/reset.css 
+2017-08-23 14:01:41.0165|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.slideto.min.js 
+2017-08-23 14:01:41.0526|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTT" completed keep alive response. 
+2017-08-23 14:01:41.0526|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" completed keep alive response. 
+2017-08-23 14:01:41.0772|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/screen.css 
+2017-08-23 14:01:41.1007|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.ba-bbq.min.js 
+2017-08-23 14:01:41.1735|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTV" completed keep alive response. 
+2017-08-23 14:01:41.1243|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/object-assign-pollyfill.js 
+2017-08-23 14:01:41.2141|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU1" completed keep alive response. 
+2017-08-23 14:01:41.2931|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 587.5461ms 304 application/javascript 
+2017-08-23 14:01:41.2652|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 709.034ms 304 text/css 
+2017-08-23 14:01:41.3591|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 746.6142ms 304 text/css 
+2017-08-23 14:01:41.3357|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" completed keep alive response. 
+2017-08-23 14:01:41.3731|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 724.6139ms 304 application/javascript 
+2017-08-23 14:01:41.3731|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 994.3388ms 304 application/javascript 
+2017-08-23 14:01:41.5717|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js   
+2017-08-23 14:01:41.6033|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js   
+2017-08-23 14:01:41.6735|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/backbone-min.js does not match an existing file 
+2017-08-23 14:01:41.6735|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js   
+2017-08-23 14:01:41.6865|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.wiggle.min.js does not match an existing file 
+2017-08-23 14:01:41.7417|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/handlebars-4.0.5.js does not match an existing file 
+2017-08-23 14:01:41.6263|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js   
+2017-08-23 14:01:41.7713|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/backbone-min.js was not modified 
+2017-08-23 14:01:41.8290|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.wiggle.min.js was not modified 
+2017-08-23 14:01:41.6484|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css   
+2017-08-23 14:01:41.8891|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/backbone-min.js 
+2017-08-23 14:01:41.8019|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js   
+2017-08-23 14:01:41.9177|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.wiggle.min.js 
+2017-08-23 14:01:42.0196|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU1" completed keep alive response. 
+2017-08-23 14:01:41.9721|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/lodash.min.js does not match an existing file 
+2017-08-23 14:01:41.9471|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/typography.css does not match an existing file 
+2017-08-23 14:01:41.8620|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery-1.8.0.min.js does not match an existing file 
+2017-08-23 14:01:42.0768|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTT" completed keep alive response. 
+2017-08-23 14:01:42.2081|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/typography.css was not modified 
+2017-08-23 14:01:42.1449|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 570.4167ms 304 application/javascript 
+2017-08-23 14:01:42.1700|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/lodash.min.js was not modified 
+2017-08-23 14:01:42.1209|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/handlebars-4.0.5.js was not modified 
+2017-08-23 14:01:42.3014|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery-1.8.0.min.js was not modified 
+2017-08-23 14:01:42.3129|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/lodash.min.js 
+2017-08-23 14:01:42.3375|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 731.0708ms 304 application/javascript 
+2017-08-23 14:01:42.4097|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/handlebars-4.0.5.js 
+2017-08-23 14:01:42.4849|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery-1.8.0.min.js 
+2017-08-23 14:01:42.4598|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTV" completed keep alive response. 
+2017-08-23 14:01:42.5110|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js   
+2017-08-23 14:01:42.3620|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/typography.css 
+2017-08-23 14:01:42.6664|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/swagger-ui.min.js does not match an existing file 
+2017-08-23 14:01:42.5665|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" completed keep alive response. 
+2017-08-23 14:01:42.6337|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js   
+2017-08-23 14:01:42.6106|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" completed keep alive response. 
+2017-08-23 14:01:42.7146|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 827.5111ms 304 application/javascript 
+2017-08-23 14:01:42.8213|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /swagger-ui.min.js was not modified 
+2017-08-23 14:01:42.7436|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTS" completed keep alive response. 
+2017-08-23 14:01:42.8239|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack_extended.js does not match an existing file 
+2017-08-23 14:01:42.9750|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js   
+2017-08-23 14:01:42.9233|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /swagger-ui.min.js 
+2017-08-23 14:01:43.0051|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1467.7824ms 304 text/css 
+2017-08-23 14:01:43.0567|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU1" completed keep alive response. 
+2017-08-23 14:01:43.0301|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jsoneditor.min.js does not match an existing file 
+2017-08-23 14:01:42.8712|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1140.5898ms 304 application/javascript 
+2017-08-23 14:01:42.9454|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1293.7411ms 304 application/javascript 
+2017-08-23 14:01:43.0782|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/highlight.9.1.0.pack_extended.js was not modified 
+2017-08-23 14:01:43.1775|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 810.9294ms 304 application/javascript 
+2017-08-23 14:01:43.2693|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js   
+2017-08-23 14:01:43.3269|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/highlight.9.1.0.pack_extended.js 
+2017-08-23 14:01:43.3625|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack.js does not match an existing file 
+2017-08-23 14:01:43.3625|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTT" completed keep alive response. 
+2017-08-23 14:01:43.3033|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jsoneditor.min.js was not modified 
+2017-08-23 14:01:43.2758|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js   
+2017-08-23 14:01:43.4257|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 832.3594ms 304 application/javascript 
+2017-08-23 14:01:43.3971|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jsoneditor.min.js 
+2017-08-23 14:01:43.4257|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js   
+2017-08-23 14:01:43.5052|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/highlight.9.1.0.pack.js was not modified 
+2017-08-23 14:01:43.5287|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTV" completed keep alive response. 
+2017-08-23 14:01:43.5608|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/swagger-oauth.js does not match an existing file 
+2017-08-23 14:01:43.6114|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 738.2818ms 304 application/javascript 
+2017-08-23 14:01:43.6114|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/swagger-oauth.js was not modified 
+2017-08-23 14:01:43.4533|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/marked.js does not match an existing file 
+2017-08-23 14:01:43.6265|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/swagger-oauth.js 
+2017-08-23 14:01:43.6265|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" completed keep alive response. 
+2017-08-23 14:01:43.6395|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/marked.js was not modified 
+2017-08-23 14:01:43.5844|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/highlight.9.1.0.pack.js 
+2017-08-23 14:01:43.6706|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/marked.js 
+2017-08-23 14:01:43.6395|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 394.9371ms 304 application/javascript 
+2017-08-23 14:01:43.6966|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTS" completed keep alive response. 
+2017-08-23 14:01:43.7222|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" completed keep alive response. 
+2017-08-23 14:01:43.8275|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 640.7311ms 304 application/javascript 
+2017-08-23 14:01:43.8415|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   
+2017-08-23 14:01:43.8415|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png   
+2017-08-23 14:01:43.8556|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 587.1686ms 304 application/javascript 
+2017-08-23 14:01:43.8556|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/v1/swagger.json does not match an existing file 
+2017-08-23 14:01:43.8821|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/logo_small.png does not match an existing file 
+2017-08-23 14:01:43.9142|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css   
+2017-08-23 14:01:43.9453|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/logo_small.png was not modified 
+2017-08-23 14:01:43.9473|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/print.css does not match an existing file 
+2017-08-23 14:01:43.9473|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/logo_small.png 
+2017-08-23 14:01:43.9473|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/print.css was not modified 
+2017-08-23 14:01:43.9638|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTS" completed keep alive response. 
+2017-08-23 14:01:43.9638|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/print.css 
+2017-08-23 14:01:43.9869|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" completed keep alive response. 
+2017-08-23 14:01:43.9869|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 136.0419ms 304 image/png 
+2017-08-23 14:01:44.0265|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 85.0504ms 304 text/css 
+2017-08-23 14:01:44.0541|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-32x32.png   
+2017-08-23 14:01:44.0591|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-32x32.png does not match an existing file 
+2017-08-23 14:01:44.0851|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A' 
+2017-08-23 14:01:44.0917|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" completed keep alive response. 
+2017-08-23 14:01:44.0917|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 60.0397ms 200 image/png 
+2017-08-23 14:01:44.1178|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png   
+2017-08-23 14:01:44.1237|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-16x16.png does not match an existing file 
+2017-08-23 14:01:44.1237|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A' 
+2017-08-23 14:01:44.1413|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBTU" completed keep alive response. 
+2017-08-23 14:01:44.1699|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 35.3736ms 200 image/png 
+2017-08-23 14:01:45.3152|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" completed keep alive response. 
+2017-08-23 14:01:45.3227|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1566.658ms 200 application/json 
+2017-08-23 14:01:49.1289|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/throbber.gif   
+2017-08-23 14:01:49.1289|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/throbber.gif does not match an existing file 
+2017-08-23 14:01:49.1530|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/throbber.gif was not modified 
+2017-08-23 14:01:49.1530|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/throbber.gif 
+2017-08-23 14:01:49.1530|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" completed keep alive response. 
+2017-08-23 14:01:49.1761|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 39.7318ms 304 image/gif 
+2017-08-23 14:01:51.4162|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Customers   
+2017-08-23 14:01:51.4162|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /api/Customers does not match a supported file type 
+2017-08-23 14:01:51.4162|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-08-23 14:01:51.5140|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Customers'. 
+2017-08-23 14:01:51.5596|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'StarterAPI.Controllers.CustomersController.AddCustomer (StarterWebAPI)' with id 'bfe8bb36-9ae9-47fe-abee-1dea58cdc95c' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-08-23 14:01:51.6283|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterAPI.Controllers.CustomersController.GetAllCustomers (StarterWebAPI) 
+2017-08-23 14:01:51.6634|2|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization failed for user: (null). 
+2017-08-23 14:01:51.6695|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2017-08-23 14:01:51.6855|1|Microsoft.AspNetCore.Mvc.ChallengeResult|INFO|Executing ChallengeResult with authentication schemes (). 
+2017-08-23 14:01:51.7161|12|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddleware|INFO|AuthenticationScheme: Bearer was challenged. 
+2017-08-23 14:01:51.7306|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action StarterAPI.Controllers.CustomersController.GetAllCustomers (StarterWebAPI) in 88.6042ms 
+2017-08-23 14:01:51.7306|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3QR7RBU0" completed keep alive response. 
+2017-08-23 14:01:51.7452|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 334.2712ms 401  
+2017-08-23 14:05:06.7493|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\dave\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-08-23 14:05:06.8595|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-23 14:05:07.0483|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-23 14:05:21.4247|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" started. 
+2017-08-23 14:05:21.5756|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/   
+2017-08-23 14:05:21.7215|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/ does not match a supported file type 
+2017-08-23 14:05:21.7662|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'N/A' 
+2017-08-23 14:05:21.8881|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" completed keep alive response. 
+2017-08-23 14:05:21.9051|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" started. 
+2017-08-23 14:05:21.9537|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" started. 
+2017-08-23 14:05:21.9763|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css   
+2017-08-23 14:05:22.0415|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" started. 
+2017-08-23 14:05:21.9312|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" started. 
+2017-08-23 14:05:22.0971|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 429.7211ms 200 text/html 
+2017-08-23 14:05:22.1372|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js   
+2017-08-23 14:05:22.0635|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" started. 
+2017-08-23 14:05:22.2268|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/reset.css does not match an existing file 
+2017-08-23 14:05:22.2796|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css   
+2017-08-23 14:05:22.3115|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js   
+2017-08-23 14:05:22.3115|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/screen.css does not match an existing file 
+2017-08-23 14:05:22.3456|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.slideto.min.js does not match an existing file 
+2017-08-23 14:05:22.2524|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/object-assign-pollyfill.js does not match an existing file 
+2017-08-23 14:05:22.1902|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js   
+2017-08-23 14:05:22.4238|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/screen.css was not modified 
+2017-08-23 14:05:22.4774|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.slideto.min.js was not modified 
+2017-08-23 14:05:22.3967|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/reset.css was not modified 
+2017-08-23 14:05:22.5012|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery-1.8.0.min.js does not match an existing file 
+2017-08-23 14:05:22.5553|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/screen.css 
+2017-08-23 14:05:22.5247|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/object-assign-pollyfill.js was not modified 
+2017-08-23 14:05:22.6009|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/reset.css 
+2017-08-23 14:05:22.6511|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/object-assign-pollyfill.js 
+2017-08-23 14:05:22.6897|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" completed keep alive response. 
+2017-08-23 14:05:22.6897|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery-1.8.0.min.js was not modified 
+2017-08-23 14:05:22.7047|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery-1.8.0.min.js 
+2017-08-23 14:05:22.7353|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.slideto.min.js 
+2017-08-23 14:05:22.7812|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" completed keep alive response. 
+2017-08-23 14:05:22.8082|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" completed keep alive response. 
+2017-08-23 14:05:22.7573|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 727.9138ms 304 text/css 
+2017-08-23 14:05:22.8383|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" completed keep alive response. 
+2017-08-23 14:05:22.8684|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 651.7402ms 304 text/css 
+2017-08-23 14:05:22.9256|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css   
+2017-08-23 14:05:22.7047|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" completed keep alive response. 
+2017-08-23 14:05:23.0901|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/typography.css does not match an existing file 
+2017-08-23 14:05:23.1241|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 645.1458ms 304 application/javascript 
+2017-08-23 14:05:22.8980|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 670.8567ms 304 application/javascript 
+2017-08-23 14:05:23.1497|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js   
+2017-08-23 14:05:23.2008|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1078.8543ms 304 application/javascript 
+2017-08-23 14:05:23.2861|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/typography.css was not modified 
+2017-08-23 14:05:23.3141|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js   
+2017-08-23 14:05:23.0108|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js   
+2017-08-23 14:05:23.4149|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/typography.css 
+2017-08-23 14:05:23.4590|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js   
+2017-08-23 14:05:23.4650|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.wiggle.min.js does not match an existing file 
+2017-08-23 14:05:23.3868|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.ba-bbq.min.js does not match an existing file 
+2017-08-23 14:05:23.4370|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/backbone-min.js does not match an existing file 
+2017-08-23 14:05:23.5112|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/handlebars-4.0.5.js does not match an existing file 
+2017-08-23 14:05:23.3367|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js   
+2017-08-23 14:05:23.4876|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" completed keep alive response. 
+2017-08-23 14:05:23.6431|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.ba-bbq.min.js was not modified 
+2017-08-23 14:05:23.7460|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.ba-bbq.min.js 
+2017-08-23 14:05:23.7460|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 882.4793ms 304 text/css 
+2017-08-23 14:05:23.7460|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" completed keep alive response. 
+2017-08-23 14:05:23.7184|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/handlebars-4.0.5.js was not modified 
+2017-08-23 14:05:23.6928|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/backbone-min.js was not modified 
+2017-08-23 14:05:23.6661|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/lodash.min.js does not match an existing file 
+2017-08-23 14:05:23.5949|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.wiggle.min.js was not modified 
+2017-08-23 14:05:23.8437|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 773.8232ms 304 application/javascript 
+2017-08-23 14:05:23.8703|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/backbone-min.js 
+2017-08-23 14:05:23.9014|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.wiggle.min.js 
+2017-08-23 14:05:23.9014|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js   
+2017-08-23 14:05:23.9869|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/lodash.min.js was not modified 
+2017-08-23 14:05:24.0209|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/handlebars-4.0.5.js 
+2017-08-23 14:05:24.0485|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js   
+2017-08-23 14:05:24.0952|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/swagger-ui.min.js does not match an existing file 
+2017-08-23 14:05:23.9959|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" completed keep alive response. 
+2017-08-23 14:05:24.1213|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" completed keep alive response. 
+2017-08-23 14:05:24.1454|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack.js does not match an existing file 
+2017-08-23 14:05:23.9302|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" completed keep alive response. 
+2017-08-23 14:05:24.2166|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /swagger-ui.min.js was not modified 
+2017-08-23 14:05:24.3151|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/highlight.9.1.0.pack.js was not modified 
+2017-08-23 14:05:24.0712|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/lodash.min.js 
+2017-08-23 14:05:24.2890|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 808.8763ms 304 application/javascript 
+2017-08-23 14:05:24.3626|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1018.3062ms 304 application/javascript 
+2017-08-23 14:05:24.3371|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /swagger-ui.min.js 
+2017-08-23 14:05:24.4162|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/highlight.9.1.0.pack.js 
+2017-08-23 14:05:24.3942|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" completed keep alive response. 
+2017-08-23 14:05:24.2658|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1269.8857ms 304 application/javascript 
+2017-08-23 14:05:24.5169|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" completed keep alive response. 
+2017-08-23 14:05:24.4903|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js   
+2017-08-23 14:05:24.5976|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1233.1193ms 304 application/javascript 
+2017-08-23 14:05:24.6236|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js   
+2017-08-23 14:05:24.5976|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" completed keep alive response. 
+2017-08-23 14:05:24.6518|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js   
+2017-08-23 14:05:24.8232|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jsoneditor.min.js does not match an existing file 
+2017-08-23 14:05:24.7738|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 755.8153ms 304 application/javascript 
+2017-08-23 14:05:24.8458|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js   
+2017-08-23 14:05:24.7002|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/marked.js does not match an existing file 
+2017-08-23 14:05:24.9305|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jsoneditor.min.js was not modified 
+2017-08-23 14:05:24.9912|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/swagger-oauth.js does not match an existing file 
+2017-08-23 14:05:24.8708|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack_extended.js does not match an existing file 
+2017-08-23 14:05:24.9962|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/marked.js was not modified 
+2017-08-23 14:05:25.0197|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jsoneditor.min.js 
+2017-08-23 14:05:24.8999|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 896.2585ms 304 application/javascript 
+2017-08-23 14:05:25.0619|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/marked.js 
+2017-08-23 14:05:25.1302|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/swagger-oauth.js was not modified 
+2017-08-23 14:05:25.1570|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/highlight.9.1.0.pack_extended.js was not modified 
+2017-08-23 14:05:25.2066|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" completed keep alive response. 
+2017-08-23 14:05:25.2312|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/swagger-oauth.js 
+2017-08-23 14:05:25.2596|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/highlight.9.1.0.pack_extended.js 
+2017-08-23 14:05:25.3542|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" completed keep alive response. 
+2017-08-23 14:05:25.3542|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" completed keep alive response. 
+2017-08-23 14:05:25.0964|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" completed keep alive response. 
+2017-08-23 14:05:25.3853|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 628.4212ms 304 application/javascript 
+2017-08-23 14:05:25.3076|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 844.4009ms 304 application/javascript 
+2017-08-23 14:05:25.4851|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 864.4226ms 304 application/javascript 
+2017-08-23 14:05:25.4384|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 921.9829ms 304 application/javascript 
+2017-08-23 14:05:25.6527|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css   
+2017-08-23 14:05:25.7109|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png   
+2017-08-23 14:05:25.6803|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   
+2017-08-23 14:05:25.7372|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/print.css does not match an existing file 
+2017-08-23 14:05:25.7602|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/logo_small.png does not match an existing file 
+2017-08-23 14:05:25.7863|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/v1/swagger.json does not match an existing file 
+2017-08-23 14:05:25.8385|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/print.css was not modified 
+2017-08-23 14:05:25.8671|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/print.css 
+2017-08-23 14:05:25.8731|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/logo_small.png was not modified 
+2017-08-23 14:05:25.8997|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" completed keep alive response. 
+2017-08-23 14:05:25.9264|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/logo_small.png 
+2017-08-23 14:05:25.9569|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" completed keep alive response. 
+2017-08-23 14:05:25.9569|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 462.9154ms 304 text/css 
+2017-08-23 14:05:25.9899|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 253.7062ms 304 image/png 
+2017-08-23 14:05:26.8845|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" completed keep alive response. 
+2017-08-23 14:05:26.9056|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1360.1849ms 200 application/json 
+2017-08-23 14:05:27.1484|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/throbber.gif   
+2017-08-23 14:05:27.1734|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/throbber.gif does not match an existing file 
+2017-08-23 14:05:27.2030|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/throbber.gif was not modified 
+2017-08-23 14:05:27.2145|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/throbber.gif 
+2017-08-23 14:05:27.2145|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" completed keep alive response. 
+2017-08-23 14:05:27.2371|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 92.0365ms 304 image/gif 
+2017-08-23 14:05:49.3128|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 46 
+2017-08-23 14:05:49.3128|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:05:49.3238|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:05:49.4176|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 14:05:49.5078|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 14:05:49.7600|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 14:05:49.8759|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 14:06:04.3810|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 14:06:04.4276|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 14:06:04.7926|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<AppUser> _ToSequence(
+    task: Task<AppUser> _FirstOrDefault(
+        source: IAsyncEnumerable<AppUser> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+                FROM [AspNetUsers] AS [u]
+                WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+            , 
+            shaper: UnbufferedEntityShaper<AppUser>
+        )
+        , 
+        cancellationToken: queryContext.CancellationToken
+    )
+)
+ 
+2017-08-23 14:06:04.9133|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:06:12.6635|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (179ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 14:06:12.7152|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:06:33.5405|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2017-08-23 14:06:33.5877|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-23 14:06:33.6062|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-08-23 14:06:33.6202|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-23 14:06:33.8021|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) in 44277.1572ms 
+2017-08-23 14:06:33.8152|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" completed keep alive response. 
+2017-08-23 14:06:33.8152|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 44511.6609ms 400 application/json; charset=utf-8 
+2017-08-23 14:07:25.5777|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" disconnecting. 
+2017-08-23 14:07:25.5777|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" disconnecting. 
+2017-08-23 14:07:25.6037|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" sending FIN. 
+2017-08-23 14:07:25.6037|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" sending FIN. 
+2017-08-23 14:07:25.6378|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" sent FIN with status "0". 
+2017-08-23 14:07:25.6378|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" sent FIN with status "0". 
+2017-08-23 14:07:25.6662|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4A" stopped. 
+2017-08-23 14:07:25.6662|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA47" stopped. 
+2017-08-23 14:07:26.5647|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" disconnecting. 
+2017-08-23 14:07:26.5877|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" disconnecting. 
+2017-08-23 14:07:26.6113|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" disconnecting. 
+2017-08-23 14:07:26.6113|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" sending FIN. 
+2017-08-23 14:07:26.6113|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" sending FIN. 
+2017-08-23 14:07:26.6213|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" sending FIN. 
+2017-08-23 14:07:26.6459|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" sent FIN with status "0". 
+2017-08-23 14:07:26.6705|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" sent FIN with status "0". 
+2017-08-23 14:07:26.6705|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4B" stopped. 
+2017-08-23 14:07:26.6705|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA48" stopped. 
+2017-08-23 14:07:26.6705|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" sent FIN with status "0". 
+2017-08-23 14:07:26.6865|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4C" stopped. 
+2017-08-23 14:08:34.8223|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" disconnecting. 
+2017-08-23 14:08:34.8223|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" sending FIN. 
+2017-08-23 14:08:34.8223|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" sent FIN with status "0". 
+2017-08-23 14:08:34.8223|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA49" stopped. 
+2017-08-23 14:08:49.3145|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4D" started. 
+2017-08-23 14:08:49.3225|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 57 
+2017-08-23 14:08:49.3225|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:08:49.3225|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:08:49.3225|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 14:08:49.3430|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 14:08:49.3786|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 14:08:49.3982|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 14:08:54.8784|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:08:54.9185|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 14:08:55.0815|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:10:23.9666|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2017-08-23 14:10:23.9826|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-08-23 14:10:23.9986|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain; charset=utf-8' to write the response. 
+2017-08-23 14:10:24.0202|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-08-23 14:10:24.0362|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) in 94680.1409ms 
+2017-08-23 14:10:24.0362|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4D" completed keep alive response. 
+2017-08-23 14:10:24.0493|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 94724.6434ms 200 text/plain; charset=utf-8 
+2017-08-23 14:12:25.0674|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4D" disconnecting. 
+2017-08-23 14:12:25.0729|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4D" sending FIN. 
+2017-08-23 14:12:25.0729|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4D" sent FIN with status "0". 
+2017-08-23 14:12:25.0729|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A3ST9LA4D" stopped. 
+2017-08-23 14:42:49.7561|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\dave\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-08-23 14:42:49.8649|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-23 14:42:50.0833|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-23 14:42:57.4845|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A4HTL3Q62" started. 
+2017-08-23 14:42:57.6429|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 57 
+2017-08-23 14:42:57.7963|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:42:57.8103|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:42:58.0614|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 14:42:58.1686|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 14:42:58.5377|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 14:42:58.6891|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 14:43:06.0328|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 14:43:06.0769|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 14:43:06.5597|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<AppUser> _ToSequence(
+    task: Task<AppUser> _FirstOrDefault(
+        source: IAsyncEnumerable<AppUser> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+                FROM [AspNetUsers] AS [u]
+                WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+            , 
+            shaper: UnbufferedEntityShaper<AppUser>
+        )
+        , 
+        cancellationToken: queryContext.CancellationToken
+    )
+)
+ 
+2017-08-23 14:43:06.6324|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:43:08.0993|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (260ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 14:43:08.1976|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:43:16.3465|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) in 18161.3725ms 
+2017-08-23 14:43:16.7422|0|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|ERROR|An unhandled exception has occurred: Object reference not set to an instance of an object. Object reference not set to an instance of an object.
+2017-08-23 14:43:16.8563|500|Global Exception Logger|ERROR|Object reference not set to an instance of an object. Object reference not set to an instance of an object.
+2017-08-23 14:43:16.9788|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A4HTL3Q62" completed keep alive response. 
+2017-08-23 14:43:16.9977|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 19388.7297ms 500 text/plain 
+2017-08-23 14:44:06.3136|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 57 
+2017-08-23 14:44:06.3316|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:44:06.3411|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:44:06.3587|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 14:44:06.3587|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 14:44:06.4304|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 14:44:06.4399|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 14:44:09.5612|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:44:09.5868|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 14:44:09.6008|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:44:31.6101|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) in 25240.8052ms 
+2017-08-23 14:44:31.7148|0|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|ERROR|An unhandled exception has occurred: Object reference not set to an instance of an object. Object reference not set to an instance of an object.
+2017-08-23 14:45:42.3576|500|Global Exception Logger|ERROR|Object reference not set to an instance of an object. Object reference not set to an instance of an object.
+2017-08-23 14:45:42.3987|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A4HTL3Q62" completed keep alive response. 
+2017-08-23 14:45:42.4217|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 96107.0446ms 500 text/plain 
+2017-08-23 14:45:49.6702|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 57 
+2017-08-23 14:45:49.6702|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:45:49.6852|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:45:49.6852|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 14:45:49.6852|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 14:45:49.6852|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 14:45:49.7022|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 14:45:52.6789|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:45:52.6930|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 14:45:52.6975|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:48:33.7810|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\dave\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-08-23 14:48:33.8833|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-23 14:48:34.1574|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-23 14:48:41.2283|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A4L43AD74" started. 
+2017-08-23 14:48:41.3906|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 57 
+2017-08-23 14:48:41.5504|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:48:41.5650|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 14:48:41.8082|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 14:48:41.9500|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 14:48:42.2799|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 14:48:42.4183|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 14:48:48.1316|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 14:48:48.1682|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 14:48:48.6535|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<AppUser> _ToSequence(
+    task: Task<AppUser> _FirstOrDefault(
+        source: IAsyncEnumerable<AppUser> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+                FROM [AspNetUsers] AS [u]
+                WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+            , 
+            shaper: UnbufferedEntityShaper<AppUser>
+        )
+        , 
+        cancellationToken: queryContext.CancellationToken
+    )
+)
+ 
+2017-08-23 14:48:48.7407|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:48:49.0637|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (91ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 14:48:49.1982|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 14:49:40.3714|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool uc.UserId.Equals(
+    other: __user_Id_0
+)
+
+select Claim uc.ToClaim()
+' 
+2017-08-23 14:49:40.3970|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool uc.UserId.Equals(
+    other: __user_Id_0
+)
+
+select Claim uc.ToClaim()
+' 
+2017-08-23 14:49:40.4647|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: False
+(QueryContext queryContext) => IAsyncEnumerable<Claim> _Select(
+    source: IAsyncEnumerable<IdentityUserClaim<string>> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+            FROM [AspNetUserClaims] AS [uc]
+            WHERE [uc].[UserId] = @__user_Id_0
+        , 
+        shaper: UnbufferedEntityShaper<IdentityUserClaim`1>
+    )
+    , 
+    selector: (IdentityUserClaim<string> uc) => Claim uc.ToClaim()
+)
+ 
+2017-08-23 14:49:40.4817|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 15:12:45.2091|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\dave\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-08-23 15:12:45.3105|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-08-23 15:12:45.5195|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-08-23 15:12:57.8769|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL7A52M6UNSK" started. 
+2017-08-23 15:12:58.0323|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/api/Auth/login application/json 57 
+2017-08-23 15:12:58.1782|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 15:12:58.1907|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-08-23 15:12:58.4766|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Auth/login'. 
+2017-08-23 15:12:58.5754|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) 
+2017-08-23 15:12:58.8336|1|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'. 
+2017-08-23 15:12:59.0031|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method StarterWebAPI.Controllers.AuthController.Post (StarterWebAPI) with arguments (StarterWebAPI.Dtos.CredentialsDto) - ModelState is Valid 
+2017-08-23 15:13:24.1176|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 15:13:24.1638|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'(from AppUser u in DbSet<AppUser>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()' 
+2017-08-23 15:13:24.6786|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<AppUser> _ToSequence(
+    task: Task<AppUser> _FirstOrDefault(
+        source: IAsyncEnumerable<AppUser> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+                FROM [AspNetUsers] AS [u]
+                WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+            , 
+            shaper: UnbufferedEntityShaper<AppUser>
+        )
+        , 
+        cancellationToken: queryContext.CancellationToken
+    )
+)
+ 
+2017-08-23 15:13:24.7709|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 15:13:25.1379|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (100ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 
+2017-08-23 15:13:25.2622|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 15:13:37.5951|2|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Compiling query model: 
+'from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool uc.UserId.Equals(
+    other: __user_Id_0
+)
+
+select Claim uc.ToClaim()
+' 
+2017-08-23 15:13:37.6077|3|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|Optimized query model: 
+'from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool uc.UserId.Equals(
+    other: __user_Id_0
+)
+
+select Claim uc.ToClaim()
+' 
+2017-08-23 15:13:37.6864|5|Microsoft.EntityFrameworkCore.Query.Internal.SqlServerQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<Claim> _Select(
+    source: IAsyncEnumerable<IdentityUserClaim<string>> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+            FROM [AspNetUserClaims] AS [uc]
+            WHERE [uc].[UserId] = @__user_Id_0
+        , 
+        shaper: UnbufferedEntityShaper<IdentityUserClaim`1>
+    )
+    , 
+    selector: (IdentityUserClaim<string> uc) => Claim uc.ToClaim()
+)
+ 
+2017-08-23 15:13:37.6984|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Opening connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 
+2017-08-23 15:13:37.7452|1|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|INFO|Executed DbCommand (14ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0 
+2017-08-23 15:13:37.7622|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection|DEBUG|Closing connection to database 'PacktDatabase' on server '(localdb)\MSSQLLocalDB'. 

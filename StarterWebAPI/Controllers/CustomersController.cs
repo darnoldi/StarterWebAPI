@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -30,6 +31,7 @@ namespace StarterAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetAllCustomers(CustomerQueryParameters customerQueryParameters)
         {
             var allCustomers = _customerRepository.GetAll(customerQueryParameters).ToList();
